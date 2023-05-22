@@ -6,7 +6,7 @@ from parameterized import parameterized
 from utils import access_nested_map, get_json, memoize
 
 
-class Test_Access_Nested_Map(unittest.TestCase):
+class TestAccessNestedMap(unittest.TestCase):
     """ TESTCASE """
     """ to test the function for following inputs """
     @parameterized.expand([
